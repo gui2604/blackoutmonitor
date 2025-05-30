@@ -58,7 +58,7 @@ blackoutmonitor/
 ├── Dockerfile                    # Containerização da aplicação
 ├── pom.xml                       # Gerenciador de dependências Maven
 └── README.md
-
+```
 # Clone o repositório
 git clone https://github.com/gui2604/blackoutmonitor.git
 cd blackoutmonitor
@@ -74,4 +74,5 @@ cd blackoutmonitor
 docker pull gui2604/blackout-monitor:1.0.0
 docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:1.0.0
 
-
+# Postman
+### A collection do Postman do projeto está em anexo dentro da raiz do diretório da aplicação. Podendo ser importada e utilizada para testes locais com o uso do Postman.
