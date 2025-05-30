@@ -3,10 +3,10 @@ http://localhost:8080/v3/api-docs
 
 # BlackoutMonitor
 
-## 3ESPV - Engenharia de Software 3º Ano - Global Solution
-## Guilherme Barreto Santos - RM97674
-## Mateus Iago Sousa Conceição - RM550270
-## Nicolas Oliveira da Silva - RM98939 
+### 3ESPV - Engenharia de Software 3º Ano - Global Solution
+### Guilherme Barreto Santos - RM97674
+### Mateus Iago Sousa Conceição - RM550270
+### Nicolas Oliveira da Silva - RM98939 
 
 
 ## Swagger/OpenAPI:
@@ -14,7 +14,7 @@ http://localhost:8080/v3/api-docs
 ### http://localhost:8080/v3/api-docs
 
 ## Collection - Postman
-### Em anexo no arquivo GS Blackoutmonitor.postman_collection.json
+	- Em anexo no arquivo GS Blackoutmonitor.postman_collection.json
 
 ## 💡 Sobre o Projeto
 ### O projeto do Blackout Monitor consiste em uma solução para fazer a diferença em comunidades menos abastadas por recursos que auxiliem de fora ágil e eficiente na identificação de quedas de energia proporcionando respostas mais imediatas a esse tipo de incidente, reduzindo a vulnerabilidade e exposições de risco para a população mais carente afetada.
@@ -59,20 +59,17 @@ blackoutmonitor/
 ├── pom.xml                       # Gerenciador de dependências Maven
 └── README.md
 ```
-# Clone o repositório
+### Clone o repositório
 	- git clone https://github.com/gui2604/blackoutmonitor.git
 	- cd blackoutmonitor
 
-# Compile e execute
+### Compile e execute
 ./mvnw spring-boot:run
 
-# Testes:
+### Testes:
 ./mvnw test
 
-## Docker
+### Docker
 ### A aplicação está disponibilizada em um container publico:
 	- docker pull gui2604/blackout-monitor:1.0.0
 	- docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:1.0.0
-
-## Postman
-	- A collection do Postman do projeto está em anexo dentro da raiz do diretório da aplicação. Podendo ser importada e utilizada para testes locais com o uso do Postman.
