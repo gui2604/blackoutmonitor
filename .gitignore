@@ -1,0 +1,61 @@
+# Arquivos e pastas do build
+/target/
+/build/
+
+# IDEs
+/.idea/
+/.vscode/
+/*.iml
+
+# Arquivos de sistema e logs
+*.log
+*.tmp
+*.temp
+
+# Arquivos gerados
+*.class
+*.jar
+*.war
+*.ear
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Maven
+/logs/
+/.mvn/
+/.settings/
+/.project
+.classpath
+
+# Spring Boot
+spring.log
+
+# IntelliJ
+out/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Outros
+hs_err_pid*
+*.hprof
