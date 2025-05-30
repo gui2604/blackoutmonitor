@@ -14,8 +14,9 @@
 	- Em anexo no arquivo GS Blackoutmonitor.postman_collection.json
 
 ## 💡 Sobre o Projeto
-	- O projeto do Blackout Monitor consiste em uma solução para fazer a diferença em comunidades menos abastadas por recursos que auxiliem de fora ágil e eficiente na identificação de quedas de energia proporcionando respostas mais imediatas a esse tipo de incidente, reduzindo a vulnerabilidade e exposições de risco para a população mais carente afetada.
-	- Para isso, a solução consiste em dispositivos de medição de luminosidade e corrente eletrica distribuído por essas zonas, periodicamente coletando dados e enviando para o servidor. O servidor consiste em uma api em Java que irá fornecer o gerenciamento de usuários, permitindo cadastro e login, e o armazenamento de informações a respeito dos dispositivos e informações sobre os locais em que eles estão distribuídos em um banco de dados H2. Essas operações serão requisitadas pelo aplicativo mobile que realizará chamadas nesse servidor e devolverá para o APP os recursos, permitindo exibições de dashboards construídos por meio de análises desses dados a respeito das regiões afetadas pelo problema de energia elétrica. 
+	O projeto do Blackout Monitor consiste em uma solução para fazer a diferença em comunidades menos abastadas por recursos que auxiliem de fora ágil e eficiente na identificação de quedas de energia proporcionando respostas mais imediatas a esse tipo de incidente, reduzindo a vulnerabilidade e exposições de risco para a população mais carente afetada.
+	
+	Para isso, a solução consiste em dispositivos de medição de luminosidade e corrente eletrica distribuído por essas zonas, periodicamente coletando dados e enviando para o servidor. O servidor consiste em uma api em Java que irá fornecer o gerenciamento de usuários, permitindo cadastro e login, e o armazenamento de informações a respeito dos dispositivos e informações sobre os locais em que eles estão distribuídos em um banco de dados H2. Essas operações serão requisitadas pelo aplicativo mobile que realizará chamadas nesse servidor e devolverá para o APP os recursos, permitindo exibições de dashboards construídos por meio de análises desses dados a respeito das regiões afetadas pelo problema de energia elétrica. 
 
 ---
 
