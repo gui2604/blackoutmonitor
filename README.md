@@ -13,24 +13,27 @@ http://localhost:8080/v3/api-docs
 ### http://localhost:8080/swagger-ui.html
 ### http://localhost:8080/v3/api-docs
 
+## Collection - Postman
+### Em anexo no arquivo GS Blackoutmonitor.postman_collection.json
+
 ## 💡 Sobre o Projeto
- // TO-DO
+### O projeto do Blackout Monitor consiste em uma solução para fazer a diferença em comunidades menos abastadas por recursos que auxiliem de fora ágil e eficiente na identificação de quedas de energia proporcionando respostas mais imediatas a esse tipo de incidente, reduzindo a vulnerabilidade e exposições de risco para a população mais carente afetada.
+### Para isso, a solução consiste em dispositivos de medição de luminosidade e corrente eletrica distribuído por essas zonas, periodicamente coletando dados e enviando para o servidor. O servidor consiste em uma api em Java que irá fornecer o gerenciamento de usuários, permitindo cadastro e login, e o armazenamento de informações a respeito dos dispositivos e informações sobre os locais em que eles estão distribuídos em um banco de dados H2. Essas operações serão requisitadas pelo aplicativo mobile que realizará chamadas nesse servidor e devolverá para o APP os recursos, permitindo exibições de dashboards construídos por meio de análises desses dados a respeito das regiões afetadas pelo problema de energia elétrica. 
 
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 17**
-- **Spring Boot**
-  - Spring Web
-  - Spring Security
-  - Spring Data JPA
-- **Maven** (Gerenciamento de dependências)
-- **H2 Database** (banco em memória para testes)
-- **JWT (JSON Web Token)** para autenticação
-- **Lombok** (para reduzir boilerplate code)
-- **JPA/Hibernate** (persistência de dados)
+	- Java 17
+	- Spring Boot
+ 	- Spring Web
+ 	- Spring Security
+ 	- Spring Data JPA
+	- Maven (Gerenciamento de dependências)
+	- H2 Database (banco em memória para testes)
+	- Lombok (para reduzir boilerplate code)
+	- JPA/Hibernate (persistência de dados)
 
 ---
 
@@ -57,7 +60,7 @@ blackoutmonitor/
 └── README.md
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/blackoutmonitor.git
+git clone https://github.com/gui2604/blackoutmonitor.git
 cd blackoutmonitor
 
 # Compile e execute
@@ -68,7 +71,7 @@ cd blackoutmonitor
 
 # Docker
 ## A aplicação está disponibilizada em um container publico:
-docker pull gui2604/blackout-monitor:v1.0.1
-docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:v1.0.1
+docker pull gui2604/blackout-monitor:1.0.0
+docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:1.0.0
 
 
