@@ -3,12 +3,18 @@ http://localhost:8080/v3/api-docs
 
 # BlackoutMonitor
 
+## 3ESPV - Engenharia de Software 3º Ano - Global Solution
+## Guilherme Barreto Santos - RM97674
+## Mateus Iago Sousa Conceição - RM550270
+## Nicolas Oliveira da Silva - RM98939 
+
+
 ## Swagger/OpenAPI:
 ### http://localhost:8080/swagger-ui.html
 ### http://localhost:8080/v3/api-docs
 
 ## 💡 Sobre o Projeto
-
+ // TO-DO
 
 
 ---
