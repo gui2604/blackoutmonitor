@@ -60,8 +60,8 @@ blackoutmonitor/
 └── README.md
 ```
 # Clone o repositório
-git clone https://github.com/gui2604/blackoutmonitor.git
-cd blackoutmonitor
+	- git clone https://github.com/gui2604/blackoutmonitor.git
+	- cd blackoutmonitor
 
 # Compile e execute
 ./mvnw spring-boot:run
@@ -69,10 +69,10 @@ cd blackoutmonitor
 # Testes:
 ./mvnw test
 
-# Docker
-## A aplicação está disponibilizada em um container publico:
-docker pull gui2604/blackout-monitor:1.0.0
-docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:1.0.0
+## Docker
+### A aplicação está disponibilizada em um container publico:
+	- docker pull gui2604/blackout-monitor:1.0.0
+	- docker run --name container-blackout-monitor -p 8080:8080 gui2604/blackout-monitor:1.0.0
 
-# Postman
-### A collection do Postman do projeto está em anexo dentro da raiz do diretório da aplicação. Podendo ser importada e utilizada para testes locais com o uso do Postman.
+## Postman
+	- A collection do Postman do projeto está em anexo dentro da raiz do diretório da aplicação. Podendo ser importada e utilizada para testes locais com o uso do Postman.
